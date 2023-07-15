@@ -1,0 +1,21 @@
+//Using a Stack, with O(n) time complexity and  O(n/2) extra space
+
+class Solution
+{
+    //Function to delete middle element of a stack.
+    public void deleteMid(Stack<Integer>s,int sizeOfStack){
+        //Middle element from top
+        int middle=(sizeOfStack/2)+1;
+        Stack<Integer> tempStack=new Stack<Integer>();
+        for(int j=1;j<middle;j++)
+        {
+            tempStack.push(s.pop());
+        }
+        s.pop();
+        while(!tempStack.isEmpty())
+        {
+            s.push(tempStack.pop());
+        }
+    
+    } 
+}
