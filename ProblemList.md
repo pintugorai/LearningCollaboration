@@ -12,5 +12,5 @@
 
 ##Binary Search
 ### MEDIUM
-- Search a 2D Matrix  [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/description/) [Local Solution]()
+- Search a 2D Matrix  [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/description/) [Local Solution(Not done)]()
 
