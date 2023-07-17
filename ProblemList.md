@@ -13,4 +13,5 @@
 ##Binary Search
 ### MEDIUM
 - Search a 2D Matrix  [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/description/) [Local Solution(Not done)]()
+- Search in Rotated Sorted Array [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) [Local Solution](<Add link here>)
 
