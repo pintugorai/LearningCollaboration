@@ -13,6 +13,7 @@
 ## Binary Search
 ### EASY
 - Sqrt(x) [Leetcode](https://leetcode.com/problems/sqrtx/description/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/squreroot.txt)
+- Guess Number Higher or Lower [Leetcode](https://leetcode.com/problems/guess-number-higher-or-lower/submissions/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/GuessGame.txt)
 
 ### MEDIUM
 - Search a 2D Matrix  [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/description/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/BinarySearchInMatrix.txt)
