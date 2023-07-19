@@ -11,6 +11,9 @@
 
 
 ## Binary Search
+### EASY
+- Sqrt(x) [Leetcode](https://leetcode.com/problems/sqrtx/description/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/squreroot.txt)
+
 ### MEDIUM
 - Search a 2D Matrix  [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/description/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/BinarySearchInMatrix.txt)
 - Search in Rotated Sorted Array [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/33.%20Search%20in%20Rotated%20Sorted%20Array.txt)
