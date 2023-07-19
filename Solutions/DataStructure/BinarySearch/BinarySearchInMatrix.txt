@@ -1,0 +1,25 @@
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int currentRow=0;
+        int currentColumn=matrix[0].length-1;
+        while(currentRow<matrix.length && currentColumn>=0)
+        {
+            if(matrix[currentRow][currentColumn]==target)
+            {
+                return true;
+            }
+            
+            if(target>matrix[currentRow][currentColumn])
+            {
+                currentRow++;
+            }
+            else
+            {
+                currentColumn--;
+            }
+        }
+        return false;
+
+        
+    }
+}
