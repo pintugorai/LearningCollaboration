@@ -1,0 +1,39 @@
+class Solution {
+    public int mySqrt(int x) {
+        int min=1;
+        int max=x/2;
+        int mid;
+       
+       //Base conditions
+        if(x==0)
+        {
+            return 0;
+        }
+        else if(x==1)
+        {
+            return 1;
+        }
+        
+        //While number more than 2
+        while(min<=max)
+        {
+            mid=min+(max-min)/2;
+            
+
+            if((long)mid*mid==(long)x)
+            {
+                return mid;
+            }else if((long)mid*mid <(long)x)
+            {
+                min=mid+1;
+            }
+            else
+            {
+                max=mid-1;
+            }
+  
+        }
+        return max;
+        
+    }
+}

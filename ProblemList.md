@@ -11,8 +11,13 @@
 
 
 ## Binary Search
+### EASY
+- Sqrt(x) [Leetcode](https://leetcode.com/problems/sqrtx/description/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/squreroot.txt)
+- Guess Number Higher or Lower [Leetcode](https://leetcode.com/problems/guess-number-higher-or-lower/submissions/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/GuessGame.txt)
+- First Bad Version [Leetcode](https://leetcode.com/problems/first-bad-version/submissions/998328634/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/FirstBadVersion.txt)
+
 ### MEDIUM
-- Search a 2D Matrix  [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/description/) [Local Solution(Not done)]()
+- Search a 2D Matrix  [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/description/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/BinarySearchInMatrix.txt)
 - Search in Rotated Sorted Array [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/33.%20Search%20in%20Rotated%20Sorted%20Array.txt)
 - [81. Search in Rotated Sorted Array II] [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/) [Local Solution](https://github.com/pintugorai/LearningCollaboration/blob/master/Solutions/DataStructure/BinarySearch/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.txt)
 
