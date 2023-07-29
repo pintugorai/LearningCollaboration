@@ -1,0 +1,47 @@
+1) Delete branch from locally
+Commands:
+git branch –delete old-branch
+OR
+git branch -d old-branch
+
+Examples:
+git branch --delete Feature-01
+
+Verify branch is deleted:
+git branch -a
+
+2) Delete branch from locally and Remote.
+> Delete branch from locally:
+git branch -D Feature-02
+> Verify:
+git branch -a
+>Deleting a branch REMOTELY:
+git push origin --delete Feature-02
+
+CONSOLE LOGs:
+C:\Users\Pintu\IdeaProjects\TestUtilities>git branch -d Feature-02
+error: The branch 'Feature-02' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D Feature-02'.
+
+C:\Users\Pintu\IdeaProjects\TestUtilities>git branch -D Feature-02
+Deleted branch Feature-02 (was f8659c3).
+
+C:\Users\Pintu\IdeaProjects\TestUtilities>git branch -a
+  main
+* master
+  remotes/origin/Feature-01
+  remotes/origin/Feature-02
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/detached
+  remotes/origin/detached2
+  remotes/origin/detached3
+  remotes/origin/detached4
+  remotes/origin/main
+  remotes/origin/master
+
+C:\Users\Pintu\IdeaProjects\TestUtilities>git push origin --delete Feature-02
+To https://github.com/pintugorai/TestUtilities.git
+ - [deleted]         Feature-02
+
+
+
