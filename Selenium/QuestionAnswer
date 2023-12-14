@@ -18,3 +18,6 @@ Different types of wait
 Different Expected conditions with custom expected conditions
     https://www.browserstack.com/guide/expectedconditions-in-selenium
     https://www.browserstack.com/guide/wait-commands-in-selenium-webdriver
+
+Difference between get and navigate.to()
+    https://www.baeldung.com/selenium-webdriver-get-vs-navigate
