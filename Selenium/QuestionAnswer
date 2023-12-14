@@ -8,3 +8,5 @@ Difference between attribute and property?
 Diff between getAttribute/getDomAttribute/getDomProperty
     https://saucelabs.com/resources/blog/selenium-4-new-element-attribute-and-property-methods
     Most people don't know the difference between an element attribute and an element property, so the traditional getAttribute method returns either the attribute or the property depending on which the you probably want. It does a good job of this. When moving to a w3c standard, though, we can't define a "best guess at what user wants" endpoint, so there is an attribute endpoint and a property endpoint. For backwards compatibility, we kept the original behavior for getAttribute and it is now implemented by sending a large chunk of JavaScript to the browser. The new methods are named slightly differently in different languages, but essentially getDomAttribute & getDomProperty which always return the exact value for property and attribute.
+How to change CSS value/ attribute value/property
+    https://www.appsloveworld.com/bestanswer/selenium/66/how-to-change-css-in-selenium-full-source-code
