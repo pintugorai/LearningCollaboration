@@ -11,3 +11,10 @@ Diff between getAttribute/getDomAttribute/getDomProperty
 How to change CSS value/ attribute value/property
     https://www.appsloveworld.com/bestanswer/selenium/66/how-to-change-css-in-selenium-full-source-code
     https://copyprogramming.com/howto/can-i-set-any-of-the-attribute-value-of-a-webelement-in-selenium
+
+Different types of wait
+    https://www.guru99.com/implicit-explicit-waits-selenium.html
+
+Different Expected conditions with custom expected conditions
+    https://www.browserstack.com/guide/expectedconditions-in-selenium
+    https://www.browserstack.com/guide/wait-commands-in-selenium-webdriver
