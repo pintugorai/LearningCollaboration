@@ -21,3 +21,9 @@ Different Expected conditions with custom expected conditions
 
 Difference between get and navigate.to()
     https://www.baeldung.com/selenium-webdriver-get-vs-navigate
+
+How to handle authentication popup
+    https://www.softwaretestingmaterial.com/handle-authentication-popup-window/
+
+How to handle alert and popups
+    https://www.guru99.com/alert-popup-handling-selenium.html
