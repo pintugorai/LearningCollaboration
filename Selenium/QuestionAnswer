@@ -5,3 +5,5 @@ Selenium Documentation
 
 Difference between attribute and property?
     https://www.geeksforgeeks.org/what-is-the-difference-between-properties-and-attributes-in-html/
+Diff between getAttribute/getDomAttribute/getDomProperty
+    https://saucelabs.com/resources/blog/selenium-4-new-element-attribute-and-property-methods
