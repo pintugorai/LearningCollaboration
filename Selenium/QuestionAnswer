@@ -32,3 +32,25 @@ How do you find broken links in Selenium WebDriver?
     https://www.browserstack.com/guide/how-to-find-broken-links-in-selenium
     https://www.guru99.com/find-broken-links-selenium-webdriver.html
 
+How do you perform drag and drop operations in WebDriver?
+
+    When using WebDriver, you can perform drag and drop operations using the Actions class. This class has a number of methods that can be used to perform various actions, such as clicking, dragging, and dropping. In order to use the Actions class, you first need to instantiate it with a WebDriver instance:
+    
+    Actions actions = new Actions(driver);
+    
+    Once you have an Actions instance, you can use the dragAndDrop() method to perform a drag and drop operation. This method takes two WebElements as arguments: the element toDrag, and the element toDrop. For example, to drag an element with the id "draggable" and drop it on an element with the id "droppable", you would do the following:
+    
+    WebElement draggable = driver.findElement(By.id("draggable"));
+    
+    WebElement droppable = driver.findElement(By.id("droppable"));
+    
+    actions.dragAndDrop(draggable, droppable).perform();
+    
+    You can also use the clickAndHold() and release() methods to perform a drag and drop operation. The clickAndHold() method takes a WebElement as an argument and "grabs" it, while the release() method releases the element. For example:
+    
+    actions.clickAndHold(draggable).release(droppable).perform();
+    
+    You can also chain together multiple Actions methods to create more complex interactions. For example, the following code will first move to the draggable element, then click and hold it, move to the droppable element, and finally release it:
+    
+    actions.moveToElement(draggable).clickAndHold().moveToElement(droppable).release().perform();
+
