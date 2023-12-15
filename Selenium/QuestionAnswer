@@ -54,3 +54,10 @@ How do you perform drag and drop operations in WebDriver?
     
     actions.moveToElement(draggable).clickAndHold().moveToElement(droppable).release().perform();
 
+
+
+
+All About Cookie..
+    https://www.youtube.com/watch?v=sovAIX4doOE
+
+
