@@ -1,2 +1,41 @@
 Interview questions link:-
   1. https://www.interviewbit.com/cucumber-interview-questions/#what-is-cucumber-and-explain-its-use
+
+what is BDD , explain in details with example and why people need it?
+        BDD stands for Behavior-Driven Development. It is a software development methodology that focuses on collaboration between different stakeholders in the development process, such as developers, testers, and business analysts. BDD aims to improve communication and understanding among team members by using a common language that is easily understandable by both technical and non-technical individuals.
+      
+      The key elements of BDD include:
+      
+          Natural Language Specification: BDD encourages the use of natural language to describe the behavior of a system. This is typically done using a specific syntax called Gherkin, which is designed to be readable by both technical and non-technical team members.
+      
+          Collaboration: BDD promotes collaboration among team members, breaking down silos between different roles in the development process. Developers, testers, and business analysts work together to define and understand the behavior of the system.
+      
+          Automated Testing: BDD scenarios are often automated using tools like Cucumber or SpecFlow. Automated tests ensure that the specified behavior is consistently and reliably tested, reducing the chances of introducing bugs during development.
+      
+      Here's a brief example using the Gherkin syntax:
+      
+      gherkin
+      
+      Feature: Account Withdrawal
+      
+        Scenario: Successful withdrawal from the account
+          Given the account balance is $100
+          When the user withdraws $50
+          Then the account balance should be $50
+      
+      In this example, the feature is described (Account Withdrawal), and a specific scenario is outlined using Given-When-Then steps. This scenario describes the expected behavior of a system feature related to withdrawing money from an account.
+      
+      Why People Need BDD:
+      
+          Improved Communication: BDD uses a common language that is easily understandable by both technical and non-technical team members. This improves communication and ensures that everyone involved in the project has a shared understanding of the system's behavior.
+      
+          Alignment with Business Goals: BDD scenarios are often written in a business-readable format. This helps in aligning the development process with the business goals, ensuring that the implemented features meet the intended requirements.
+      
+          Early Detection of Issues: Writing scenarios before development helps in identifying potential issues and misunderstandings early in the process. This can lead to faster issue resolution and a more efficient development cycle.
+
+    Automated Testing: BDD encourages the creation of automated tests based on the specified behavior. Automated tests provide a quick and reliable way to ensure that the system behaves as expected, helping in the early detection of regressions.
+
+    Documentation: BDD scenarios serve as executable documentation. They provide a living documentation that stays up-to-date with the codebase and can be used to understand the system's behavior without the need for separate documentation.
+
+    In summary, Behavior-Driven Development (BDD) is a methodology that promotes collaboration, improves communication, and aligns development with business goals. It uses natural language specifications, encourages automated testing, and provides executable documentation to ensure a shared understanding of the system's behavior among all team members.
+
